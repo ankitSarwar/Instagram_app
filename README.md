@@ -20,11 +20,11 @@ The Instagram App is a backend application that focuses on creating the basic de
  ## User
  - Represents a user of the application.
 
--firstName (String): The first name of the user.
--lastName (String): The last name of the user.
--age (Integer): The age of the user.
--email (String): The email address of the user.
--phoneNumber (String): The phone number of the user.
+- firstName (String): The first name of the user.
+- lastName (String): The last name of the user.
+- age (Integer): The age of the user.
+- email (String): The email address of the user.
+- phoneNumber (String): The phone number of the user.
 
 ## Post
  - Represents a post in the application.
