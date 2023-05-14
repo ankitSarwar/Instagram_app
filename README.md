@@ -29,18 +29,18 @@ The Instagram App is a backend application that focuses on creating the basic de
 ## Post
  - Represents a post in the application.
 
--postId (Integer): The ID of the post.
--createdDate (Timestamp): The timestamp when the post was created.
--updatedDate (Timestamp): The timestamp when the post was last updated.
--postData (String): The data of the post (can be dummy string for now).
--user (User): The user who created the post.
+- postId (Integer): The ID of the post.
+- createdDate (Timestamp): The timestamp when the post was created.
+- updatedDate (Timestamp): The timestamp when the post was last updated.
+- postData (String): The data of the post (can be dummy string for now).
+- user (User): The user who created the post.
 
 ## AuthenticationToken
 Represents an authentication token for a user.
 
-tokenId (Long): The ID of the token.
-token (String): The token string for authentication.
-tokenCreationDate (LocalDate): The date when the token was created.
+- tokenId (Long): The ID of the token.
+- token (String): The token string for authentication.
+- tokenCreationDate (LocalDate): The date when the token was created.
 
 >### user (User): The user associated with the token.
 
